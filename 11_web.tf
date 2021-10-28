@@ -21,7 +21,7 @@ resource "aws_instance" "simon_web1" {
   key_name = "tf-key"
   vpc_security_group_ids = [aws_security_group.simon_websg.id]
   availability_zone = "ap-northeast-2a"
-  //private_ip = "10.0.1.0/24"
+  private_ip = "10.0.1.11"
   subnet_id = aws_subnet.simon_Puba.id
   tags = {
     Name = "simon-web1"

@@ -1,4 +1,4 @@
-resource "aws_route_table" "simon_gma_rt_a" {
+resource "aws_route_table" "simon_nga_rt_a" {
   vpc_id = aws_vpc.simon_vpc.id
 
   route {
@@ -11,7 +11,7 @@ resource "aws_route_table" "simon_gma_rt_a" {
   }
 }
 
-resource "aws_route_table" "simon_gma_rt_c" {
+resource "aws_route_table" "simon_nga_rt_c" {
   vpc_id = aws_vpc.simon_vpc.id
 
   route {

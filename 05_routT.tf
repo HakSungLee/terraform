@@ -1,4 +1,4 @@
-resource "aws_route_table" "example" {
+resource "aws_route_table" "simon_rt" {
   vpc_id = aws_vpc.simon_vpc.id
 
 
